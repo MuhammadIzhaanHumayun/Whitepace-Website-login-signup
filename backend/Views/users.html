@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User List</title>
+    <style>
+      body {
+        font-family: Arial;
+        background: #f4f4f4;
+        padding: 20px;
+      }
+      h2 {
+        text-align: center;
+        font-size: 36px;
+      }
+      ol {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      li {
+        padding: 8px 0;
+        border-bottom: 1px solid #ddd;
+      }
+      li:last-child {
+        border-bottom: none;
+      }
+      strong {
+        color: #007bff;
+      }
+      #deleteForm {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      input {
+        padding: 8px;
+        width: 300px;
+        font-size: 16px;
+      }
+      button {
+        padding: 8px 16px;
+        font-size: 16px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Users</h2>
+    <ol id="userList"></ol>
+    <div id="deleteForm">
+      <input type="text" id="userId" placeholder="Enter user ID to delete" />
+      <button onclick="deleteUser()">Delete User</button>
+    </div>
+
+    <script>
+      async function loadUsers() {
+        const res = await fetch("/api/users");
+        const users = await res.json();
+
+        document.getElementById("userList").innerHTML = users
+          .map(
+            (u) => `
+        <li>
+          Id: ${u._id} <br>
+          Name: <strong>${u.firstName} ${u.lastName}</strong><br>
+          Email: ${u.email}
+        </li>
+      `
+          )
+          .join("");
+      }
+      async function deleteUser() {
+        const id = document.getElementById("userId").value.trim();
+        if (!id) {
+          alert("Please enter a user ID");
+          return;
+        }
+
+        if (!confirm(`Are you sure you want to delete user: ${id}?`)) return;
+
+        try {
+          const res = await fetch("/users/delete", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ id }),
+          });
+
+          const data = await res.json();
+          if (res.ok) {
+            alert(data.msg);
+            document.getElementById("userId").value = "";
+            loadUsers();
+          } else {
+            alert(data.msg);
+          }
+        } catch (err) {
+          console.error("Error deleting user:", err);
+          alert("Error deleting user");
+        }
+      }
+
+      loadUsers();
+    </script>
+  </body>
+</html>
