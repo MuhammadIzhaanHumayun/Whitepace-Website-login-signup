@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/css/main.01089308.css",
-    "main.js": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/js/main.3ae2f299.js",
-    "static/js/453.d7446e4a.chunk.js": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/js/453.d7446e4a.chunk.js",
-    "static/media/heroimage.jpg": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/media/heroimage.d8f5f10615e67b0b6ecf.jpg",
-    "static/media/projectimage.jpg": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/media/projectimage.077599e8bc77b2be1462.jpg",
-    "static/media/extension.png": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/media/extension.a027081165e8f66af272.png",
-    "static/media/Element.png": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/media/Element.b47cb30693c76fe51903.png",
-    "static/media/work.png": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/media/work.ba23420c9f94a14799c5.png",
-    "static/media/google.png": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/media/google.40920ec1759a498d6d42.png",
-    "static/media/bg.png": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/media/bg.78beb13c50a0799657dc.png",
-    "index.html": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/index.html",
-    "main.01089308.css.map": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/css/main.01089308.css.map",
-    "main.3ae2f299.js.map": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/js/main.3ae2f299.js.map",
-    "453.d7446e4a.chunk.js.map": "/MuhammadIzhaanHumayun/Whitepace-Website-login-signup/static/js/453.d7446e4a.chunk.js.map"
+    "main.css": "/Whitepace-Website-login-signup/static/css/main.ae5a3123.css",
+    "main.js": "/Whitepace-Website-login-signup/static/js/main.04fb221f.js",
+    "static/js/453.d7446e4a.chunk.js": "/Whitepace-Website-login-signup/static/js/453.d7446e4a.chunk.js",
+    "static/media/heroimage.jpg": "/Whitepace-Website-login-signup/static/media/heroimage.d8f5f10615e67b0b6ecf.jpg",
+    "static/media/projectimage.jpg": "/Whitepace-Website-login-signup/static/media/projectimage.077599e8bc77b2be1462.jpg",
+    "static/media/extension.png": "/Whitepace-Website-login-signup/static/media/extension.a027081165e8f66af272.png",
+    "static/media/Element.png": "/Whitepace-Website-login-signup/static/media/Element.b47cb30693c76fe51903.png",
+    "static/media/work.png": "/Whitepace-Website-login-signup/static/media/work.ba23420c9f94a14799c5.png",
+    "static/media/google.png": "/Whitepace-Website-login-signup/static/media/google.40920ec1759a498d6d42.png",
+    "static/media/bg.png": "/Whitepace-Website-login-signup/static/media/bg.78beb13c50a0799657dc.png",
+    "index.html": "/Whitepace-Website-login-signup/index.html",
+    "main.ae5a3123.css.map": "/Whitepace-Website-login-signup/static/css/main.ae5a3123.css.map",
+    "main.04fb221f.js.map": "/Whitepace-Website-login-signup/static/js/main.04fb221f.js.map",
+    "453.d7446e4a.chunk.js.map": "/Whitepace-Website-login-signup/static/js/453.d7446e4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01089308.css",
-    "static/js/main.3ae2f299.js"
+    "static/css/main.ae5a3123.css",
+    "static/js/main.04fb221f.js"
   ]
 }
