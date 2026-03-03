@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Whitepace-Website-login-signup/static/css/main.ae5a3123.css",
-    "main.js": "/Whitepace-Website-login-signup/static/js/main.04fb221f.js",
+    "main.js": "/Whitepace-Website-login-signup/static/js/main.b524a23c.js",
     "static/js/453.d7446e4a.chunk.js": "/Whitepace-Website-login-signup/static/js/453.d7446e4a.chunk.js",
     "static/media/heroimage.jpg": "/Whitepace-Website-login-signup/static/media/heroimage.d8f5f10615e67b0b6ecf.jpg",
     "static/media/projectimage.jpg": "/Whitepace-Website-login-signup/static/media/projectimage.077599e8bc77b2be1462.jpg",
@@ -12,11 +12,11 @@
     "static/media/bg.png": "/Whitepace-Website-login-signup/static/media/bg.78beb13c50a0799657dc.png",
     "index.html": "/Whitepace-Website-login-signup/index.html",
     "main.ae5a3123.css.map": "/Whitepace-Website-login-signup/static/css/main.ae5a3123.css.map",
-    "main.04fb221f.js.map": "/Whitepace-Website-login-signup/static/js/main.04fb221f.js.map",
+    "main.b524a23c.js.map": "/Whitepace-Website-login-signup/static/js/main.b524a23c.js.map",
     "453.d7446e4a.chunk.js.map": "/Whitepace-Website-login-signup/static/js/453.d7446e4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae5a3123.css",
-    "static/js/main.04fb221f.js"
+    "static/js/main.b524a23c.js"
   ]
 }
